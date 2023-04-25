@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/assests/img/bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    backdrop-filter: blur(70px);
+    /* background: red; */
+    height: 150px;
+}
+
+.navigation {
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    height: 150px;
+    display: flex;
+}
+
+.links {
+    padding-right: 90px;
+    /* margin-top: auto; */
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    /* margin-bottom: auto; */
+    display: flex;
+    list-style-type: none;
+}
+
+.link-item {
+    margin-left: 50px;
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    height: 150px;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+}
+
+.logo img {
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+    width: 80px;
+}
+
+.container {
+    /* height: 700px; */
+    padding-bottom: 90px;
+    /* background: yellow; */
+    /* height: 500px;    */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: autox; */
+
+}
+.content {
+    /* height: 700px; */
+    padding-bottom: 90px;
+    /* background: yellow; */
+    /* height: 500px;    */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: autox; */
+
+}
+
+.text {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3,
+h1 {
+    color: rgb(226, 192, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    height: 80px;
+    margin-top: -80px;
+    width: 100%;
+    backdrop-filter: blur(70px);
+    background: rgba(255, 255, 255, 0.094);
+    /* background: red; */
+    height: 100px;
+
+}
+
+.footer {
+    color: white;
+    font-size: 18px;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.footer-adress {
+    color: white;
+    font-size: 18px;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.link-item:hover {
+    text-decoration-line: underline;
+}
+
+@media (max-width:720px) {
+
+    /* .container {
+        height: 1400px;
+    } */
+    /* .text {
+        height: 1400px;
+    } */
+    .links {
+        padding: 50px;
+    }
+
+    .link-item {
+        font-size: 20px;
+    }
+}
+
+
+.card {
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #a1ffce, #f9ffd1);
+    text-align: center;
+    /* flex: 150px; */
+    /* margin-left: auto; */
+}
+
+.card img {
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+
+}
+
+
+.cards {
+    justify-content: center;
+    display: flex;
+    /* backdrop-filter: blur(50px); */
+    border-radius: 15px;
+    padding: 40px;
+    /* background: green; */
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 100px;
+}
+
+.text-card {
+    font-size: 24px;
+    margin: 10px;
+}
+
+button {
+    width: 100px;
+    background: linear-gradient(45deg, #d9ff00, #72afd3);
+    /* box-shadow:rgb(226, 192, 0); */
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+}
+
+@media (min-width: 1000px) {
+    .container {
+        height: 700px;
+    }
+}
+@media (max-width: 1000px) {
+    .content {
+        height: 700px;
+    }
+}
+@media (min-width: 1000px) {
+    .content {
+        height: 700px;
+    }
+}
+
+
+
+.title {
+    text-align: center;
+}
+
+.contact {
+
+    width: 450px;
+    height: 300px;
+    /* border-radius: 15px; */
+    padding: 20px;
+}
+
+.phone {
+    display: flex;
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+img {
+    width: 50px;
+    margin-right: 50px;
+}
+
+.email {
+    display: flex;
+    padding: 10px;
+
+    margin: 20px;
+    font-size: 20px;
+}
+
+.adress {
+    padding: 10px;
+    display: flex;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.contact-form {
+    font-weight: 600;
+    width: 200px;
+    height: 340px;
+    font-size: 20px;
+    margin: 40px 20px 0px 20px;
+}
+
+.form {
+    color: white;
+    background: #bef4f441;
+    display: flex;
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+}
+
+@media (max-width:1000px) {
+
+    .form {
+        display: block;
+    }
+
+    .contact-form {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about {
+        width: 400px;
+    }
+
+    .phone {
+        margin: 0px;
+        font-size: 18px;
+    }
+
+    .email {
+        margin: 0px;
+        font-size: 18px;
+    }
+
+    .adress {
+        margin: 0px;
+        font-size: 18px;
+    }
+
+    .contact {
+        padding-top: 50px;
+        margin-top: 30px;
+    }
+}
