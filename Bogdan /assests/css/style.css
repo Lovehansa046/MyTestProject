@@ -71,6 +71,7 @@ header {
 .menu {
     position: relative;
     margin: 40px;
+    transition: 5s;
 }
 
 .menu-line {
@@ -159,6 +160,7 @@ footer {
 
     .active {
         display: block;
+        margin-top: 200px;
     }
 
 
@@ -170,6 +172,11 @@ footer {
 
     .non-active {
         display: none;
+    }
+
+    .menu:hover {
+        transform: rotateY(360deg);
+
     }
 
     .change_menuline {
